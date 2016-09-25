@@ -1,0 +1,560 @@
+@CHARSET "UTF-8";
+
+/* Códigos da página index-videos */
+
+.index_galeria_videos {
+    width: 95%;
+    margin: auto
+}
+
+.index_galeria_videos1,
+.index_galeria_videos2,
+.index_galeria_videos3,
+.index_galeria_videos4,
+.index_galeria_videos5,
+.index_galeria_videos6 {
+    float: left;
+    width: 50%;
+    margin: auto;
+}
+
+.index_galeria_videos1 {
+    background-image: url(../img/cinema/cinemavideofilme01.jpg);
+    background-size: contain;
+}
+
+.index_galeria_videos2 {
+    background-image: url(../img/cinema/cinemavideofilme02.jpg);
+    background-size: contain;
+}
+
+.index_galeria_videos3 {
+    background-image: url(../img/cinema/cinemavideofilme03.jpg);
+    background-size: contain;
+}
+
+.index_galeria_videos4 {
+    background-image: url(../img/cinema/cinemavideofilme04.jpg);
+    background-size: contain;
+}
+
+.index_galeria_videos5 {
+    background-image: url(../img/cinema/cinemavideofilme05.jpg);
+    background-size: contain;
+}
+
+.index_galeria_videos6 {
+    background-image: url(../img/cinema/cinemavideofilme06.jpg);
+    background-size: contain;
+}
+
+
+/* Códigos da página index-fotos */
+
+.index_galeria_fotos {
+    margin: auto;
+    padding: inherit;
+    width: 95%;
+}
+
+.index_galeria_fotos1 {
+    background-image: url(../img/cinema/cinemafotofilme01.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 1%;
+    width: 30%;
+}
+
+.index_galeria_fotos2 {
+    background-image: url(../img/cinema/cinemafotofilme02.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 1%;
+    width: 30%;
+}
+
+.index_galeria_fotos3 {
+    background-image: url(../img/cinema/cinemafotofilme03.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 1%;
+    width: 30%;
+}
+
+.index_galeria_fotos4 {
+    background-image: url(../img/cinema/cinemafotofilme04.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 1%;
+    width: 30%;
+}
+
+.index_galeria_fotos5 {
+    background-image: url(../img/cinema/cinemafotofilme05.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 1%;
+    width: 30%;
+}
+
+.index_galeria_fotos6 {
+    background-image: url(../img/cinema/cinemafotofilme06.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 1%;
+    width: 30%;
+}
+
+.index_galeria_fotos7 {
+    background-image: url(../img/cinema/cinemafotofilme07.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 1%;
+    width: 30%;
+}
+
+.index_galeria_fotos8 {
+    background-image: url(../img/cinema/cinemafotofilme08.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 1%;
+    width: 30%;
+}
+
+.index_galeria_fotos9 {
+    background-image: url(../img/cinema/cinemafotofilme09.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 1%;
+    width: 30%;
+}
+
+
+/* Códigos da página index-filmes */
+
+.index_galeria_filmes {
+    margin: auto;
+    padding: inherit;
+    width: 95%;
+}
+
+#capa-1-esquerda {
+    float: left;
+    margin: 0;
+    width: 50%;
+}
+
+#texto-1-direita {
+    float: right;
+    width: 48%;
+    margin: 1%
+}
+
+.img-modal-01 {
+    width: 100%
+}
+
+.index_galeria_filmes1 {
+    background-image: url(../img/cinema/cinemacapafilme01.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#capa-2-esquerda {
+    float: left;
+    margin: 0;
+    width: 50%;
+}
+
+#texto-2-direita {
+    float: right;
+    width: 48%;
+    margin: 1%
+}
+
+.img-modal-02 {
+    width: 100%
+}
+
+.index_galeria_filmes2 {
+    background-image: url(../img/cinema/cinemacapafilme02.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#capa-3-esquerda {
+    float: left;
+    margin: 0;
+    width: 50%;
+}
+
+#texto-3-direita {
+    float: right;
+    width: 48%;
+    margin: 1%
+}
+
+.img-modal-03 {
+    width: 100%
+}
+
+.index_galeria_filmes3 {
+    background-image: url(../img/cinema/cinemacapafilme03.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#capa-4-esquerda {
+    float: left;
+    margin: 0;
+    width: 50%;
+}
+
+#texto-4-direita {
+    float: right;
+    width: 48%;
+    margin: 1%
+}
+
+.img-modal-04 {
+    width: 100%
+}
+
+.index_galeria_filmes4 {
+    background-image: url(../img/cinema/cinemacapafilme04.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+/* codigos da pagina filmes-article */
+
+.paginafilmescapasporgenero {
+    float: left;
+    width: 33%
+}
+
+.paginafilmescapasporgenero01 {
+    background-image: url(../img/cinema/cinemacapafilme01.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafilmescapasporgenero02 {
+    background-image: url(../img/cinema/cinemacapafilme02.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafilmescapasporgenero03 {
+    background-image: url(../img/cinema/cinemacapafilme04.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafilmescapasporgenero04 {
+    background-image: url(../img/cinema/cinemacapafilme03.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafilmescapasporgenero05 {
+    background-image: url(../img/cinema/cinemacapafilme05.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafilmescapasporgenero06 {
+    background-image: url(../img/cinema/cinemacapafilme06.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafilmescapasporgenero07 {
+    background-image: url(../img/cinema/cinemacapafilme09.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafilmescapasporgenero08 {
+    background-image: url(../img/cinema/cinemacapafilme08.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafilmescapasporgenero09 {
+    background-image: url(../img/cinema/cinemacapafilme10.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafilmescapasporgenero10 {
+    background-image: url(../img/cinema/cinemacapafilme01.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafilmescapasporgenero11 {
+    background-image: url(../img/cinema/cinemacapafilme04.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafilmescapasporgenero12 {
+    background-image: url(../img/cinema/cinemacapafilme09.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* codigos da pagina de fotos-article */
+
+.paginafotos {
+    float: left;
+    margin: auto;
+    width: 33%;
+}
+
+.paginafotos01 {
+    background-image: url(../img/cinema/cinemafotofilme01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafotos02 {
+    background-image: url(../img/cinema/cinemafotofilme02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafotos03 {
+    background-image: url(../img/cinema/cinemafotofilme03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafotos04 {
+    background-image: url(../img/cinema/cinemafotofilme04.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafotos05 {
+    background-image: url(../img/cinema/cinemafotofilme05.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafotos06 {
+    background-image: url(../img/cinema/cinemafotofilme06.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafotos07 {
+    background-image: url(../img/cinema/cinemafotofilme07.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafotos08 {
+    background-image: url(../img/cinema/cinemafotofilme08.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafotos09 {
+    background-image: url(../img/cinema/cinemafotofilme09.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginafotos10 {
+    background-image: url(../img/cinema/cinemafotofilme10.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+/* codigos da pagina videos-article */
+
+.galeria_videos {
+    width: 49%;
+    float: left;
+}
+
+.galeria_videos01 {
+    background-image: url(../img/cinema/cinemavideofilme01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.galeria_videos02 {
+    background-image: url(../img/cinema/cinemavideofilme02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.galeria_videos03 {
+    background-image: url(../img/cinema/cinemavideofilme03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.galeria_videos04 {
+    background-image: url(../img/cinema/cinemavideofilme04.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.galeria_videos05 {
+    background-image: url(../img/cinema/cinemavideofilme05.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.galeria_videos06 {
+    background-image: url(../img/cinema/cinemavideofilme06.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.galeria_videos07 {
+    background-image: url(../img/cinema/cinemavideofilme07.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.galeria_videos08 {
+    background-image: url(../img/cinema/cinemavideofilme08.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.galeria_videos09 {
+    background-image: url(../img/cinema/cinemavideofilme09.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.galeria_videos10 {
+    background-image: url(../img/cinema/cinemavideofilme10.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* codigos da pagina em cartaz */
+
+.galeria_em-cartaz {}
+
+.videos01 {
+    background-image: url(../img/cinema/cinemacapafilme01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.videos02 {
+    background-image: url(../img/cinema/cinemacapafilme02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.videos03 {
+    background-image: url(../img/cinema/cinemacapafilme03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.videos04 {
+    background-image: url(../img/cinema/cinemacapafilme04.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.videos05 {
+    background-image: url(../img/cinema/cinemacapafilme05.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.videos06 {
+    background-image: url(../img/cinema/cinemacapafilme06.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.videos07 {
+    background-image: url(../img/cinema/cinemacapafilme07.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.videos08 {
+    background-image: url(../img/cinema/cinemacapafilme08.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.videos09 {
+    background-image: url(../img/cinema/cinemacapafilme09.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.videos10 {
+    background-image: url(../img/cinema/cinemacapafilme10.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

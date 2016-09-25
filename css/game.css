@@ -1,0 +1,375 @@
+@charset "UTF-8";
+
+/* Formatando a index da seção games */
+
+/* Aqui estou customizando o design do blocos da página index dos games */
+
+body {
+    
+/*    color: white;*/
+}
+
+.jumbotron_games {
+    
+    width: 100%;  
+padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: white;
+  background-image: url(../img/games/fundo.jpg);
+  height: 245px; 
+}
+
+/* Aqui estou configurando os botões de menu da página index */
+.btn-primary_games {
+  
+/*margin-left: 25%;*/
+  color: #fff;
+  background-color: #000;
+    height: 200px;
+    
+      
+}
+
+/* Aqui estou configurando a h1 que vai estar no topo de todas as páginas */
+.h1homegames {
+    text-align: center;
+}
+
+/* Escolhi um parágrafo para colocar minha imagem para ela continuar responsiva como se fosse um elemento */
+
+.pimagemhomeaventura {
+    width: 1.0em;
+    height: 1.0em;
+}
+
+
+/* A partir daqui vou começar a editar a página AVENTURA */
+
+.h1aventura {
+    text-align: center;
+}
+
+/* Aqui será a primeira imagem usada na página da AVENTURA */
+.pimagemprimeiroarticle {
+    background-image: url(../img/games/teste.jpg);
+    background-repeat: round;
+    height: 100px;
+}
+
+.designarticle1 {
+    background-color: #000;
+    color: #fff;
+    height: auto;
+}
+
+/* Aqui colocaremos a imagem dos artigos em destaque da página aventura */
+/*
+.imgpgaventura {
+    background-image: url(../img/games/tomb.jpg);
+    background-repeat: round;
+    height: 250px;
+}
+*/
+
+/* Aside da página aventura WEB */
+
+.newprimeirasectionasideaventura
+{
+    background-color: white;
+    
+}
+ 
+/* Titulo ultimas noticias do aside aventura */
+
+.newtitledoasideaventura
+{
+    color: #ed1e1e;
+    text-align: center;
+    
+}
+
+
+/* classe para dividir os articles */
+.divide {
+    height: 20px;
+}
+
+/* Aqui começo a editar a página TIRO */
+.primeirah1tiro {
+    text-align: center;
+}
+
+/* Aqui coloquei a imagem que mostra no topo da página tiro */
+.primeirasectiontiro {
+    background-image: url(../img/games/Counter-Strike-Global-Offensive.jpg);
+    background-repeat: round;
+    height: 300px;
+}
+
+/* Formatação do parágrado usado para colocar imagem na página de tiro */
+.pimagempgtiro {
+  
+    width: auto;
+    height: 200px;
+    background-image: url(../img/games/teste.jpg);
+    background-repeat: round;
+} 
+
+/* formatando as noticias da página tiro, aqui mechemos nas corse e na estrutura */
+.jumbotron_tiro {
+padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #fff;
+}
+
+/* Aqui iremos configurar o article da página tiro */
+.customarticletiro {
+    background-color: black;
+
+}
+
+/* H1 no topo da página LUTA */
+
+.h1luta {
+     text-align: center;
+}
+
+/* a primeira imagem que ficará nas notícias da página luta */
+
+.imagemprimeiranoticialuta {
+    background-image: url(../img/games/teste.jpg);
+    background-repeat: round;
+    width: 150px;
+    height: 200px;
+}
+
+/* Customizando o primeiro article da página luta */
+
+.customarticleluta {
+    background-color: black;
+}
+
+/* A partir daqui vou começar a editar a página ESPORTES */
+
+.h1esportes {
+    text-align: center;
+}
+
+/* Aqui editarei o design do primeiro article da página de ESPORTES */
+
+.designarticle1esportes {
+    background-color: black;
+    height: auto;
+}
+
+/* Aqui será a primeira imagem usada na página da ESPORTES */
+.pimagemprimeiroarticleesportes {
+    background-image: url(../img/games/teste.jpg);
+    background-repeat: round;
+    height: 100px;
+}
+
+/* Aqui colocaremos a imagem dos artigos em destaque da página ESPORTES */
+
+.imgpgesportes {
+    background-image: url(../img/games/tomb.jpg);
+    background-repeat: round;
+    height: 250px;
+}
+
+/* Começando a págna de RPG */
+
+.h1rpg {
+    text-align: center;
+}
+
+/* Customizando o primeiro article da página RPG */
+
+.customarticlerpg {
+    background-color: black;
+}
+
+/* a primeira imagem que ficará nas notícias da página RPG */
+
+.imagemprimeiranoticiarpg {
+    background-image: url(../img/games/teste.jpg);
+    background-repeat: round;
+    width: 150px;
+    height: 200px;
+}
+
+.customsectionrpg {
+    background-color: white;
+}
+
+/* Aqui começa a formatação da página MOBILE */
+
+/* H1 mobile */
+.h1mobile {
+    text-align: center;
+}
+
+/* Customizando o primeiro article da página MOBILE */
+
+.customarticlemobile {
+    background-color: black;
+}
+/* a primeira imagem que ficará nas notícias da página MOBILE */
+
+.imagemprimeiranoticiamobile {
+    background-image: url(../img/games/teste.jpg);
+    background-repeat: round;
+    width: 150px;
+    height: 200px;
+}
+
+/* Começando a formatação das páginas DESKTOPS */
+
+/* Formatando a página AVENTURAS DESK  */
+
+/* Primeiro article da página aventura WEB */
+.articleaventuraweb {
+    background-color: blue;
+    height: 400px;
+}
+
+/* Formatando a area em cima da imagem principal onde vai ficar o nome do jogo */
+
+.newnomedojogo { 
+    
+}
+
+
+/* Formatando o primeiro aside da página aventura WEB  */
+
+.asideaventuraweb {
+    background-image: url(../img/games/teste.jpg);
+    background-repeat: round;
+    height: 350px;
+}
+
+/* Aqui esta a imagem a ser usada nas ultimas noticias  */
+
+.imagemasideultimanoticia {
+    background-image: url(../img/games/teste.jpg);
+    background-repeat: round;
+    height: 200px;
+}
+
+/* Aqui o ultimo article da página aventura WEB */
+
+.ultimoarticleaventura {
+    border-top: 1px solid black;
+}
+
+
+/* Formatação da página tiro tamanho WEB */
+
+
+/* Aqui vou começar a fazer as novas mudanças da página para NEW */
+
+/* Aqui está a primeira section da página aventura */
+.newsectionaventura {
+    color: #32dbe2;
+    text-align: center;
+/*    text-transform: uppercase;*/
+}
+
+/* Segunda section dentro do primeiro article NEW  */
+.newsectionaventura2 {
+   
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+
+
+
+/* Aqui começa as noticias que ficaram no canto direito da página aventura new */
+
+/* Aqui são as imagens a ser usado nas noticas */
+.newimglinks1 {
+    background-image: url(../img/games/Counter-Strike-Global-Offensive.jpg);
+    background-repeat: round;
+    width: 100px;
+    height: 100px;
+}
+
+/* Aqui os divs usados para formatação das noticias */
+/*
+.newdivlinks1 {
+    border: solid #3b3a3a 1px;
+    margin: 2%;
+    padding: 5%;
+  
+}
+*/
+
+/*
+.newdivlinks2 {
+    border: solid #3b3a3a 1px;
+    margin: 2%;
+    padding: 5%;
+}
+
+.newdivlinks3 {
+    border: solid #3b3a3a 1px;
+    margin: 2%;
+    padding: 5%;
+}
+
+.newdivlinks4 {
+    border: solid #3b3a3a 1px;
+    margin: 2%;
+    padding: 5%;
+}
+
+.newdivlinks5 {
+    border: solid #3b3a3a 1px;
+    margin: 2%;
+    padding: 5%;
+
+}
+
+.newdivlinks6 {
+    border: solid #3b3a3a 1px;
+    margin: 2%;
+    padding: 5%;
+}
+.newdivlinks7 {
+    border: solid #3b3a3a 1px;
+    margin: 2%;
+    padding: 5%;
+}
+
+*/
+
+/* fim dos divs links da página aventura */
+
+/*Formatação do body da página aventura*/
+
+.bodyaventura{
+    background-color: #fff;
+    
+}
+
+/*Formatando o principal article da aventura*/
+
+.articleprincipalaventura {
+    background-color: black;
+}
+
+
+/*Aqui voltamos a configurar a home que aconteceu um erro*/
+
+.gamesarticlehome {
+    max-height:204px;
+}
+
+/* classe para deixar as minhas notícias com texto branco */
+.color-white {
+    color: #fff;
+}

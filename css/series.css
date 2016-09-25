@@ -1,0 +1,375 @@
+/* Tabalho Projeto integrador
+ * Criado dia 15/10
+ * Almir Kubo
+ * modeificado  Dia 16/12/15
+ * Projeto lord Geek
+
+
+*/
+
+
+@charset "UTF-8";
+
+
+
+/*     começo responsivo */
+
+
+/*ESCONDE ELEMENTOS MOBILE E TABLET*/
+@media screen and (max-width:991px) {
+    .esconde-secoes-home-tablet {
+        /*visibility: hidden;*/
+        display: none !important;
+    }
+    #esconde-secoes-home-tablet-id{
+        display: none !important;
+    }
+}
+@media screen and (max-width:770px) {
+    .esconde-secoes-home-mobile {
+        /*visibility: hidden;*/
+        display: none !important;
+    }
+    #esconde-secoes-home-mobile-id{
+        display: none !important;
+    }
+    .esconde-carrousel{
+        display: none !important;
+    }
+}
+
+
+
+
+/* fim */
+
+
+/* pagina ação */
+
+
+
+
+
+
+
+.lanc1 {
+    
+    
+    background-color: gray;
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.txt1 {
+
+text-align: center ;
+
+}
+
+
+
+.txt2 {
+
+text-align: center ;
+
+}
+
+
+.thumbnailtwt {
+
+width:100px;
+
+}
+
+
+.seriejessica {
+
+width: 300px;
+
+}
+
+
+.serietwd1 {
+
+
+width: 2000px;
+
+
+}
+
+
+
+
+
+.centralizado {
+
+text-align: center;
+
+}
+
+
+.centralizado1 {
+
+
+align-content: left ;
+
+
+}
+
+.h3 {
+
+font-family: sans-serif ;
+    font-size: 10 px ;
+
+}
+
+.well {
+
+font-style: normal;
+text-align: center ;
+font-size: 15px;
+font-family: sans-serif;
+
+
+}
+
+/* Compoente Meio  */
+
+.camposeries {
+    
+    
+    width:auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: blue;
+  background-color: #E8E8E8;
+}
+
+
+/* Compoente Meio  */
+
+.aventura {
+
+ width: 200px;
+    height: 200px;
+    background-image: url(../img/series/acaoSuper.jpg);
+    background-repeat: round;
+}
+
+
+.p {
+
+font-family: sans-serif ;
+    
+
+
+}
+
+
+/* pagina aventura  */
+
+
+
+.caption
+
+{
+    
+   text-align: center; 
+    font-family: sans-serif;
+    font-family:BebasNeue;
+    
+    
+}
+
+
+
+
+
+
+
+/* Fim aventura  */
+
+
+
+/* inicio parte terror  */
+
+
+.noticias{
+    
+    background-color: black;
+    
+    
+}
+
+.terror {
+    
+    background-color: black ;
+    
+    
+}
+
+
+.scream {
+    
+    font-family: sans-serif;
+    font-family: HURTM__;
+    
+    
+}
+
+
+.not {
+    
+    width: 1200px;
+    
+    
+}
+
+
+.sele {
+    
+    background-color: white;
+    text-decoration-line: underline;
+    height: 75%;
+    
+}
+
+
+.testef {
+    
+    background-color: white ;
+    
+    
+}
+
+
+/* parte lançamento s */
+
+
+
+
+.lanc{
+    
+    
+    background-color:#2F4F4F ;
+    
+    
+    
+    
+}
+
+.seriess {
+    
+    
+    font-family: sans-serif ;
+    font-family: arial ;
+    
+    
+    
+    
+}
+
+
+
+
+
+
+/* pagina renovações */
+
+
+
+figure:hover span.hid-1 {
+		position:relative;
+		left: 0px;
+		background: white;
+		width:100px;
+		top:-20px;
+		filter:opacity(alpha=60);
+        -moz-opacity:0.3;
+        opacity:0.6;
+		padding:10px;
+		font-weight:bold;
+		margin-left:15px;
+
+
+	}
+	
+
+figure span.hid {
+		position:relative;
+		left: 0px;
+		background: white;
+		width:100px;
+		top:-40px;
+		filter:opacity(alpha=60);
+        -moz-opacity:0.3;
+        opacity:0.6;
+		padding:5px;
+		font-weight:bold;
+	}
+
+
+
+/* pagina comedia */
+
+
+
+.tst {
+    
+    
+    padding: 50px;
+    background-color: aliceblue;
+    
+    
+    
+    
+}
+
+
+
+
+
+.redir {
+    
+    
+    
+float:left;
+margin:0 20px 10px 0;
+}
+
+
+
+/* Pagina Supergril */
+
+
+
+
+.supergril {
+
+align-content: center ;
+
+
+}
+
+
+.gril {
+
+
+width: 50% ;
+
+}

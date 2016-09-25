@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/* ########################################################################################## */
+/*ESCONDE ELEMENTOS MOBILE E TABLET*/
+@media screen and (max-width:991px) {
+    .esconde-secoes-home-tablet {
+        /*visibility: hidden;*/
+        display: none !important;
+    }
+    #esconde-secoes-home-tablet-id{
+        display: none !important;
+    }
+}
+@media screen and (max-width:770px) {
+    .esconde-secoes-home-mobile {
+        /*visibility: hidden;*/
+        display: none !important;
+    }
+    #esconde-secoes-home-mobile-id{
+        display: none !important;
+    }
+    .esconde-carrousel{
+        display: none !important;
+    }
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(batman-forever.ttf);
+    font-weight: bold;
+}
+body{
+    font-family: sans-serif;
+}
+/*LINKS*/
+/*
+a{
+    color: #333;
+    text-decoration: none;
+}
+*/
+a:focus {
+    outline: thin dotted;
+    outline-offset: -2px;
+}
+a:hover, a:focus {
+    color: #333;
+    text-decoration: underline;
+}
+/* ########################################################################################## */
+/*EFEITOS NO MENU*/
+.navbar{
+    /*height:70px; */
+    padding-top:0px;
+    padding-right:0px;
+    padding-left:0px;
+}
+/*-- change navbar dropdown color --*/
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #3C3C3C;
+    color:#333;
+}
+/*will change height and padding of navbar - that is outter container*/
+.dropdown-menu{
+    background:rgba(217,216,215,0.99); 
+    color:#333;
+    /*background-color: #3344ff;*/
+    font-family: myFirstFont;
+}
+/*will change background color of dropdown-menu - that is ul under dropdown link. All we have to understand the structure of navbar.*/
+.dropdown-menu li>a{
+    color:#333;
+    font-family: sans-serif;
+}
+/*muda a cor do menu*/
+/*.navbar-inverse {*/
+    /*background-image: linear-gradient(to bottom, #3C3C3C 0px, #222 100%);*/
+    /*background-image: linear-gradient(to bottom, #D9D8D7 0px, #b9babb 100%);*/
+    /*background-repeat: repeat-x;*/
+    /*background-color: #222;*/
+    /*border-color: #b9babb;*/
+    /*background-color: #D9D8D7;*/
+/*}*/
+/* ########################################################################################## */
+/* ALINHA HEADER  */
+/*.header-img{
+    margin: 0 auto;
+}*/
+
+/* ########################################################################################## */
+/*FOOTER*/
+/*MANTÉM O FOOTER EMBAIXO*/
+.trava-footer{
+    clear: both;
+    margin-top: 30px;
+}
+
+/* ########################################################################################## */
+/*HOME*/
+.titulos-home{
+    font-family: myFirstFont;
+    text-align: center;
+}
+.subtitulo-home{
+    float: left;
+}
+.texto-secao-home{
+    float: left;
+}
+/*CAROUSEL*/
+.btn-primary {
+    /*background-image: -webkit-linear-gradient(top,#428bca 0,#2d6ca2 100%);
+    background-image: -o-linear-gradient(top,#428bca 0,#2d6ca2 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#428bca),to(#2d6ca2));
+    background-image: linear-gradient(to bottom,#428bca 0,#2d6ca2 100%);*/
+    background-image: -webkit-linear-gradient(top,#D9D8D7 0,#D9D8D7 100%);
+    background-image: -o-linear-gradient(top,#D9D8D7 0,#D9D8D7 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#D9D8D7),to(#D9D8D7));
+    background-image: linear-gradient(to bottom,#D9D8D7 0,#D9D8D7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff2d6ca2', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #D9D8D7;
+}
+.highlight {
+    color:#fff;
+    background:#000;
+    box-shadow:5px 0 0 #000, -5px 0 0 #000;
+    padding: 5px 0;
+}
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    bottom: 7px;
+}
+.carousel-indicators {
+    bottom: 1px;
+}
+.link-carousel{
+    color: #DDD !important;
+}
+.link-carousel:hover{
+    color: #FFF;
+}
+/* ########################################################################################## */
+/* OUTROS QUEM SOMOS / CONTATO / MAPA DO SITE */
+.separa-aside-quem-somos{
+    padding: 5px; 
+}
+.recolhe-paragrafo-contato{
+    margin-left: 15px;
+}
+.recolhe-paragrafo-email-contato{
+    margin-left: 30px;
+}
+.tira-bullet-mapa-do-site{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+/* ########################################################################################## */
+/* LINHA DE SEÇÕES  */
+.linha-secoes{
+    margin-top: 20px;
+    padding-top: 10px;
+    /*height: 200px;*/
+    background:rgba(217,216,215,0.99); 
+    border: 1px;
+    border-color: #000000;
+}
+.linha-secoes-titulos{
+    color: #000000;
+	font: normal 40px; /*'Cookie', cursive;*/
+	margin: 0;
+    font-family: myFirstFont;
+}
+.img-linha-secoes{
+    float: left;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+/* ########################################################################################## */
+/* TITULO DAS SECOES  */
+.titulo-secao{
+	color: #000000;
+	/*font: normal 40px 'Cookie', cursive;*/
+	margin: 0;
+    font-family: myFirstFont;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.titulo-secao-h2{
+    color: #000000;
+	/*font: normal 40px 'Cookie', cursive;*/
+	margin: 0;
+    font-family: myFirstFont;
+}
